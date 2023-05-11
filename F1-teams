@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <style>
+      #ferrari {
+  text-align: left;
+  padding: 15px 50px 25px 50px;
+  }
+
+#ferrari_img {
+  padding-left: 30px;
+}
+
+#fer_header {
+  text-decoration-color: #ff0018;
+}
+
+#mercedes {
+  text-align: right;
+  padding: 15px 50px 50px 50px;
+  }
+
+#mercedes_img {
+  padding-right: 30px;
+}
+
+#merc-text {
+  align-items: right;
+}
+
+#merc_header {
+  text-decoration-color: #08f7c2;
+}
+
+.text-img {
+  display: flex;
+  padding-top: 0px;
+}
+
+.text {
+  height: 300px;
+  width: 600px;
+}
+
+.img {
+  height: 250px;
+  width: 350px;
+}
+
+.container {
+  display: block;
+  width: 800px;
+}
+
+.header {
+  font-size: 2rem;
+  text-align: center;
+  background-color: "white";
+  width: 835px;
+}
+
+.body {
+  color: #000120;
+  font-family: Sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  padding-bottom: 0px;
+}
+
+p {
+  color: #636362;
+}
+
+text {
+  color: #636362;
+  font-size: 15px;
+}
+
+a {
+  color: #636362;
+  text-decoration: none;
+}
+    </style>
+    <title>Fav F1 teams</title>
+  </head>
+  <body class="body">
+  
+    <div class="header">
+        <h1>My Two Favorite Formula 1 Teams</h1>
+    </div>
+      
+    <div class="container">
+      <div id="ferrari">
+        <h2 id="fer_header">Scuderia Ferrari</h2>
+        <div class="text-img">
+          <p class="text"> Ferrari first lined up on the grid for the second round of the first ever Formula One season on May 21st, 1950. On this day, history was made as the most successful ever Formula One team raced for the very first time. Ferrari would go on to win 243 races on their way to earning 16 constructors' championships as well as 15 driver's championships. A large portion of their success is owed to Michael Schumacher, who from 2000-2004 managed to win 5 consecutive constructors' and driver's titles in a completely dominant display ofdriving that propelled him to becoming the, at the time, most successful ever driver by an incredible margin.</p>
+          <img src="https://msmproduction.s3.eu-west-1.amazonaws.com/s3fs-public/uploads/2015/12/FerrariF2004.jpg" class="img" id="ferrari_img">
+        </div>
+        <text>Check out their website <a style="font-style: italic;"id="fer_a"href="https://www.ferrari.com/en-EN/formula1">here</a>.</text>
+      </div>
+      
+      <div id="mercedes">
+        <h2 id="merc_header">Mercedes-AMG F1</h2>
+        <div id="merc-text" class="text-img">
+        <img src="https://cdn-7.motorsport.com/static/img/amp/4900000/4970000/4976000/4976900/4976952/s6_1001895/1001895.jpg" id="mercedes_img"class="img"> 
+          <p class="text"> The modern Mercedes Formula One team first raced from the start of the 2010 season. Having bought the previous  year's championship winning team, Brawn GP, they entered the season with high hopes for performance. However, their first win in the modern era wouldn't come until 2 years later at the Chinese Grand Prix in 2012. They had troubles continuing this success until 2014, when a change in regulations gave them a nearly unbeatably fast car, ushering in a new unrivaled era of dominance. This dominance took them to 8 consecutive constructor's championships and 7 consecutive driver's championships.</p>
+        </div>
+        <text>Check out their website <a style="font-style: italic;"href="https://www.mercedesamgf1.com/">here.</a></text>
+        
+      </div>
+      <text>If you would like, contact me <a style="font-style: italic;"href="mailto: jack.priestley@students.nisd.net">here</a>.</text>
+    </div>
+  </body>
+</html>
